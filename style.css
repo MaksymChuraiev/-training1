@@ -78,6 +78,9 @@ body {
   line-height: 24px;
   color: #fb6d3a;
 }
+.my-projects-link:not(:first-child) {
+  margin-left: 20px;
+}
 .my-projects-text {
   font-style: normal;
   font-weight: bold;
@@ -146,6 +149,14 @@ body {
 
 .my-education-block {
   margin-bottom: 20px;
+}
+
+.my-education-wrap {
+  display: flex;
+}
+
+.my-education-image {
+  margin-left: 150px;
 }
 
 .my-education-institution {
